@@ -59,9 +59,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Changa-Light
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: -891686607
   material: {fileID: 763506597690183203}
-  materialHashCode: 0
+  materialHashCode: -1614717327
   m_Version: 1.1.0
   m_SourceFontFileGUID: c583ffc10ac6ea646a506842553e86a0
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: c583ffc10ac6ea646a506842553e86a0, type: 3}
@@ -2628,9 +2628,9 @@ MonoBehaviour:
     packingMode: 0
     atlasWidth: 512
     atlasHeight: 512
-    characterSetSelectionMode: 0
-    characterSequence: 32 - 126, 160, 8203, 8230, 9633
-    referencedFontAssetGUID: 
+    characterSetSelectionMode: 6
+    characterSequence: 20-7E,A0,2026
+    referencedFontAssetGUID: 08c308b6c60ac1b4bb011bc9e3c5ddb4
     referencedTextAssetGUID: 
     fontStyle: 0
     fontStyleModifier: 0

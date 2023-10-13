@@ -117,9 +117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
   m_Name: Changa-VariableFont_wght
   m_EditorClassIdentifier: 
-  hashCode: 0
+  hashCode: 326127401
   material: {fileID: -8576721808746517987}
-  materialHashCode: 0
+  materialHashCode: -1512008343
   m_Version: 1.1.0
   m_SourceFontFileGUID: 81bca545f2af4ed4385d6875d9a9c876
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 81bca545f2af4ed4385d6875d9a9c876, type: 3}
@@ -2686,9 +2686,9 @@ MonoBehaviour:
     packingMode: 0
     atlasWidth: 512
     atlasHeight: 512
-    characterSetSelectionMode: 0
-    characterSequence: 32 - 126, 160, 8203, 8230, 9633
-    referencedFontAssetGUID: 
+    characterSetSelectionMode: 6
+    characterSequence: 20-7E,A0,2026
+    referencedFontAssetGUID: 277330a56d561514d88177a8fe54e4f1
     referencedTextAssetGUID: 
     fontStyle: 0
     fontStyleModifier: 0
