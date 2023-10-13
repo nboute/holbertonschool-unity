@@ -1134,6 +1134,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1181079387}
     m_Modifications:
+    - target: {fileID: 970828726856476317, guid: a836ac04c182d4a498bd5c7451b5a8fb, type: 3}
+      propertyPath: m_text
+      value: Exit
+      objectReference: {fileID: 0}
     - target: {fileID: 2322124778396140356, guid: a836ac04c182d4a498bd5c7451b5a8fb, type: 3}
       propertyPath: m_Name
       value: ExitButton
@@ -1231,6 +1235,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1181079387}
     m_Modifications:
+    - target: {fileID: 2142559179877096818, guid: a15e65d0ffb276046b06990e9918d60c, type: 3}
+      propertyPath: m_text
+      value: Options
+      objectReference: {fileID: 0}
     - target: {fileID: 3529464775731493035, guid: a15e65d0ffb276046b06990e9918d60c, type: 3}
       propertyPath: m_Name
       value: OptionsButton
