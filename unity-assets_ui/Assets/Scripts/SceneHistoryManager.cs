@@ -1,3 +1,4 @@
+using System.Threading;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -44,6 +45,7 @@ public class SceneHistoryManager : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
+        Time.timeScale = 1;
         SetPreviousScene(SceneManager.GetActiveScene().name);
         SceneManager.LoadScene(sceneName);
     }

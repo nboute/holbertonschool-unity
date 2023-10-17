@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TimerTrigger : MonoBehaviour
 {
+    private bool timerTriggered = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,11 +18,22 @@ public class TimerTrigger : MonoBehaviour
         {
             Debug.Log("Player triggered");
             other.gameObject.GetComponent<Timer>().enabled = true;
+            timerTriggered = true;
         }
     }
 
     // Update is called once per frame
     void Update()
     {
+    }
+
+    public bool GetTimerTriggered()
+    {
+        return timerTriggered;
+    }
+
+    public void Win()
+    {
+        
     }
 }

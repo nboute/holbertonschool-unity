@@ -113,6 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winText: {fileID: 0}
+  winCanvas: {fileID: 1777018388216864724, guid: ea1d8299fa730fb46a22f915a90b282d, type: 3}
 --- !u!1001 &698873458828375161
 PrefabInstance:
   m_ObjectHideFlags: 0
