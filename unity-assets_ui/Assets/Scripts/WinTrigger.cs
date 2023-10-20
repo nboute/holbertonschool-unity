@@ -31,10 +31,8 @@ public class WinTrigger : MonoBehaviour
     /// <param name="other">The other Collider involved in this collision.</param>
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Triggered");
         if (other.gameObject.CompareTag("Player"))
         {
-            Debug.Log("Player triggered");
             Time.timeScale = 0;
             winText.fontSize = 60;
             winText.color = Color.green;

@@ -1806,6 +1806,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1771163862}
     - target: {fileID: 698873459490487857, guid: d743d2eb4114db6409e7abfa98ba7e33, type: 3}
+      propertyPath: winCanvas
+      value: 
+      objectReference: {fileID: 454578602}
+    - target: {fileID: 698873459490487857, guid: d743d2eb4114db6409e7abfa98ba7e33, type: 3}
       propertyPath: gameCamera
       value: 
       objectReference: {fileID: 559203576}
