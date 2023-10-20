@@ -13,7 +13,7 @@ public class CameraController : MonoBehaviour
     public float verticalSensitivity = 3.0f;
     [HideInInspector]
     public bool isPaused;
-    public bool IsInverted = false;
+    public bool isInverted = false;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +26,7 @@ public class CameraController : MonoBehaviour
     void Awake()
     {
         Debug.Log(PlayerPrefs.GetInt("CameraYInvert"));
-        IsInverted = PlayerPrefs.GetInt("CameraYInvert") == 1 ? true : false;
+        isInverted = PlayerPrefs.GetInt("CameraYInvert") == 1 ? true : false;
     }
 
     public void ResetOffset()
@@ -43,7 +43,7 @@ public class CameraController : MonoBehaviour
         transform.position = player.position + offset;
         float rotateHorizontal = Input.GetAxis("Mouse X") * horizontalSensitivity;
         float rotateVertical = Input.GetAxis("Mouse Y") * verticalSensitivity;
-        if (IsInverted)
+        if (isInverted)
             rotateVertical *= -1f;
 
         offset = Quaternion.Euler(0, rotateHorizontal, 0) * Quaternion.Euler(-rotateVertical, 0, 0) * offset;
