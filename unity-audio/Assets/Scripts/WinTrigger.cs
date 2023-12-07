@@ -44,6 +44,7 @@ public class WinTrigger : MonoBehaviour
             player.GetComponent<Timer>().Win();
             backgroundMusic.Stop();
             WinSound.Play();
+            Debug.Log("hello");
         }
     }
 
